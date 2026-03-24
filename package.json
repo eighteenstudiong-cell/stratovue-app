@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@fontsource/montserrat": "^5.2.8",
+    "axios": "^1.13.6"
+  }
+}
