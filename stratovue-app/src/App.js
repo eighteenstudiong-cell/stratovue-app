@@ -39,7 +39,7 @@ const Nav = ({ page, setPage, platform, setPlatform }) => {
 
         <div style={{display:"flex",alignItems:"center",gap:4}}>
           {navItems.map(n => (
-            <button key={n} onClick={()=>{setPage(n);setPlatform(false);setMenuOpen(false);}} style={{
+            <button key={n} onClick={()=>{setPage(n);setPlatform(false);}} style={{
               background:"none",border:"none",cursor:"pointer",
               fontFamily:"'Montserrat',sans-serif",fontWeight:600,fontSize:11,
               letterSpacing:"0.1em",
