@@ -3,7 +3,6 @@ import '@fontsource/montserrat/400.css';
 import { fetchPosts, fetchCourses } from './sheetsService';
 
 const BRAND = "#3C3489";
-const BRAND_LIGHT = "#534AB7";
 const DARK = "#0D0B2B";
 const OFF_WHITE = "#F5F4F0";
 const MID = "#888780";
@@ -23,7 +22,6 @@ const WordMark = ({ dark = false }) => (
 );
 
 const Nav = ({ page, setPage, platform, setPlatform }) => {
-  const [menuOpen, setMenuOpen] = useState(false);
   const navItems = ["Home","About","Advisory","Training","Studio","Clearview","Thinking","Contact"];
 
   return (
